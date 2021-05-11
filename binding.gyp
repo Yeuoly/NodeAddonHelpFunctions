@@ -1,9 +1,13 @@
 {
   "targets": [
     {
-      "target_name": "hello",
+      "target_name": "yfunction",
       "sources": [
-        "src/hello.cc"
+        "src/source/functions.cc",
+        "src/source/font.cc",
+        "src/source/utils.cc",
+        "src/headers/font.h"
+        "src/headers/utils.h"
       ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")"

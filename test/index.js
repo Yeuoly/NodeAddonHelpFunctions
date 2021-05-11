@@ -1,3 +1,3 @@
-const hello = require('../build/Release/hello');
+const hello = require('../build/Release/yfunction');
 
-console.log(hello.hello());
+console.log(hello.get_system_fonts().join(','));
