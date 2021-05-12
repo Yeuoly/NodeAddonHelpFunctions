@@ -6,8 +6,10 @@
         "src/source/functions.cc",
         "src/source/font.cc",
         "src/source/utils.cc",
+        "src/source/NodeAddonSocket.cc",
         "src/headers/font.h"
         "src/headers/utils.h"
+        "src/headers/NodeAddonSocket.h"
       ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")"
